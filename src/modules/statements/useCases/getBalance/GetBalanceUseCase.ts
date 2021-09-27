@@ -5,7 +5,7 @@ import { Statement } from "../../entities/Statement";
 import { IStatementsRepository } from "../../repositories/IStatementsRepository";
 import { GetBalanceError } from "./GetBalanceError";
 
-interface IRequest {
+export interface IRequest {
   user_id: string;
 }
 
